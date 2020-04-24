@@ -1,5 +1,5 @@
 # Photometry Simplified
-PS is a tool which simplifies (as the name suggests) the photometry process and the production of colour-magnitude diagrams. It was created to be used with a few other pieces of software:
+PS is a tool which simplifies (as the name suggests) the photometry process but also the production of colour-magnitude diagrams. It was created to be used with a few other pieces of software:
 - AstroImageJ (AIJ)
 - TOPCAT
 - Excel*
