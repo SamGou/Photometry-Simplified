@@ -1,0 +1,4 @@
+PyAstronomy
+numpy
+pandas
+xlrd
