@@ -6,7 +6,7 @@ import os
 
 
 def aperture_file(data):
-    dir = os.getcwd() + "\\GAIA Data\\experimental"
+    dir = os.getcwd() + "\\GAIA Data"
     df = pd.read_csv(data)
 
     ra = np.array(df["ra"])
@@ -39,7 +39,7 @@ def aperture_file(data):
     if not os.path.exists(subdir):
         os.makedirs(subdir)
 
-    with open(subdir + "\\RADEC_Py.radec", "a+") as file:
+    with open(subdir + "\\RADEC_Py.radec", "w") as file:
         for line in string_list:
             line = line + "\n"
             file.write(line)
