@@ -22,7 +22,7 @@ PS solves those issues by providing automated cluster star selection as well as 
 
 _The images were taken at Queen Mary's University in London (specifications of the telescope can be found [here](https://github.com/SamGou/Photometry-Simplified/blob/master/Images/Files/STXL_6303-39815.pdf))_
 
-Next step we need to do is to locate our image on the night sky and add that information to the image's metadata. This is known as plate solving. [Astrometry.net](http://nova.astrometry.net/) has a great tool for exactly this purpose. Upload your image and download the plate solved .fits file. This is the end of the image alterations.
+Next step we need to do is to locate our image on the night sky and add that information to the image's metadata. This is known as plate solving. [Astrometry.net](http://nova.astrometry.net/) has a great tool for exactly this purpose. Upload your image and download the plate solved .fits file. This is the last of the image alterations that we need to do.
 
  We now need to seperate our cluster members from the background stars. This is done solely with [TOPCAT](http://www.star.bris.ac.uk/~mbt/topcat/). I will not go into too much detail here, but the generally we will need to:
   - Perform a TOPCAT Cone Search of the chosen cluster (in this case M34).
