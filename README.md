@@ -66,3 +66,6 @@ Here are the results that PS can produce:
 <img src="https://github.com/SamGou/Photometry-Simplified/blob/master/Images/M34_Best_fit.jpeg" width="90%">
 
 _From this image we estimate that M34 is ~ 150 Myrs old. For comparison, M34 was calculated to be 180 Myrs in 1993 by [G. Meynet's Geneva Team.](http://www.messier.seds.org/m-ref.html#meynet) A great result in no time!_
+
+## Future work
+Currently, I am doing work on PS trying to translate it into java. The idea is to make a fully functional application which can be easily used by anyone.
